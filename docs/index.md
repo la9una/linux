@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# ¡Bienvenid@s!
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+El presente espacio pretende ser una guía introductoria para quienes están comenzando a dar los primeros pasos en el sistema operativo GNU/Linux. La totalidad de los contenidos están desarrollados sobre la distribución Ubuntu 16.04 LTS. 
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
