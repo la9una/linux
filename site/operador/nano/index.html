@@ -17,7 +17,7 @@
       
         <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs-0.16.1, mkdocs-material-1.6.0">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.0">
     
     
       
@@ -50,7 +50,7 @@
   
   
   
-    <body data-md-color-primary="orange" data-md-color-accent="yellow">
+    <body data-md-color-primary="amber" data-md-color-accent="amber">
   
     <svg class="md-svg">
       <defs>
@@ -462,7 +462,7 @@
 <p>No es tan potente como <a href="../vim/">vim</a> o <a href="https://es.wikipedia.org/wiki/Emacs">emacs</a> pero es mucho más fácil de manejar que estos. Así cualquier usuario por poco experimentado que sea es capaz de empezar a usar Nano desde el primer momento gracias a las dos líneas de ayuda que mantiene en su parte inferior.</p>
 <h2 id="instalacion-de-nano">Instalación de Nano<a class="headerlink" href="#instalacion-de-nano" title="Permanent link">&para;</a></h2>
 <p>El editor viene preinstalado en la mayoría de las distribuciones basadas en Unix. Sin embargo, puede ocurrir que esto no sea así. En ese caso, simplemente debemos abrir una terminal y ejecutar: </p>
-<div class="codehilite"><pre><span></span>$ sudo apt-get install nano
+<div class="codehilite"><pre>$ sudo apt-get install nano
 </pre></div>
 
 
@@ -471,17 +471,17 @@
 <p>Una vez abierto el editor veremos en la parte inferior algunos atajos de teclado útiles para trabajar: por ejemplo <code>^X Salir</code>, donde el símbolo <code>^</code> hace referencia la tecla <code>Control</code> y <code>X</code> a la tecla <code>x</code>. De esta manera, si deseamos salir del editor deberemos presionar conjuntamente las teclas <code>Control</code>+<code>`x</code>.</p>
 <h2 id="abriendo-archivos">Abriendo archivos<a class="headerlink" href="#abriendo-archivos" title="Permanent link">&para;</a></h2>
 <p>Para abrir una archivo determinado, tendremos que invocar el editor seguido de la ruta hacia el archivo en cuestión:</p>
-<div class="codehilite"><pre><span></span>$ nano archivo.txt
+<div class="codehilite"><pre>$ nano archivo.txt
 </pre></div>
 
 
 <p>Para desactivar el ajuste de línea realizado por el editor. </p>
-<div class="codehilite"><pre><span></span>$ nano -w archivo.txt
+<div class="codehilite"><pre>$ nano -w archivo.txt
 </pre></div>
 
 
 <p>Abrimos el archivo a la vez que realizamos una copia de seguridad del mismo:</p>
-<div class="codehilite"><pre><span></span>$ nano -B archivo.txt
+<div class="codehilite"><pre>$ nano -B archivo.txt
 </pre></div>
 
 
@@ -617,17 +617,17 @@
 </table>
 <h2 id="activando-el-resaltado-de-sintaxis">Activando el resaltado de sintaxis<a class="headerlink" href="#activando-el-resaltado-de-sintaxis" title="Permanent link">&para;</a></h2>
 <p>Podemos colorear el texto para que nos sea más facil visualizar el código en un lenguaje determinado. Nano dispone de coloreado de sintaxis para varios lenguajes. Podemos ver los disponibles ejecutando el siguiente comando: </p>
-<div class="codehilite"><pre><span></span>$ ls /usr/share/nano
+<div class="codehilite"><pre>$ ls /usr/share/nano
 </pre></div>
 
 
 <p>Para habilitar el resaldado de sintaxis, tendermos que abrir el archivo: </p>
-<div class="codehilite"><pre><span></span>$ sudo nano /etc/nanorc
+<div class="codehilite"><pre>$ sudo nano /etc/nanorc
 </pre></div>
 
 
 <p>Y a continuación incluir las líneas de código que necesitemos: </p>
-<div class="codehilite"><pre><span></span><span class="c1">## Nanorc files</span>
+<div class="codehilite"><pre><span class="c1">## Nanorc files</span>
 include <span class="s2">&quot;/usr/share/nano/nanorc.nanorc&quot;</span>
 
 <span class="c1">## Bourne shell scripts</span>

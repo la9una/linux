@@ -17,7 +17,7 @@
       
         <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs-0.16.1, mkdocs-material-1.6.0">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.0">
     
     
       
@@ -50,7 +50,7 @@
   
   
   
-    <body data-md-color-primary="orange" data-md-color-accent="yellow">
+    <body data-md-color-primary="amber" data-md-color-accent="amber">
   
     <svg class="md-svg">
       <defs>
@@ -800,7 +800,7 @@
 <p>El desarrollo de este poderoso editor se remonta al año 1991 y desde aquel entonces no ha cesado de incorporar características. Amado u odiado, este editor <a href="https://es.wikipedia.org/wiki/Vim#Principales_funcionalidades">ofrece múltiples opciones</a> en una sola herramienta, siendo altamente configurable para adaptarse a distintas necesidades de programadores y profesionales de la informática. </p>
 <h2 id="instalacion">Instalación<a class="headerlink" href="#instalacion" title="Permanent link">&para;</a></h2>
 <p>Para instalar el editor en nuestro sistema, ejecutamos en una terminal: </p>
-<div class="codehilite"><pre><span></span>$ sudo apt-get install vim
+<div class="codehilite"><pre>$ sudo apt-get install vim
 </pre></div>
 
 
@@ -829,13 +829,13 @@
 </ul>
 <h2 id="abrir-un-archivo">Abrir un archivo<a class="headerlink" href="#abrir-un-archivo" title="Permanent link">&para;</a></h2>
 <p>Luego de haber instalado VIM podremos abrir una terminal y comenzar a utilizar el editor ejecutando: </p>
-<div class="codehilite"><pre><span></span>$ vim
+<div class="codehilite"><pre>$ vim
 </pre></div>
 
 
 <p>Veremos la ventana principal del editor con un archivo vacío listo para usar. </p>
 <p>Si en cambio, quisiéramos abrir un archivo existente, simplemente deberíamos pasarle la ruta hacia el mismo como parámetro: </p>
-<div class="codehilite"><pre><span></span>$ vim archivo.txt
+<div class="codehilite"><pre>$ vim archivo.txt
 </pre></div>
 
 
@@ -844,7 +844,7 @@
 <p><strong>Cada vez que Vim abre un archivo en realidad lo que abre es una copia de éste y la guarda momentáneamente en memoria. A ésto es lo que llamamos <em>buffer</em>. Sólo cuando guardemos los cambios, la información contenida en el <em>buffer</em> se guardará en el archivo.</strong></p>
 <h3 id="abriendo-multiples-archivos">Abriendo múltiples archivos<a class="headerlink" href="#abriendo-multiples-archivos" title="Permanent link">&para;</a></h3>
 <p>De esta forma podríamos abrir varios archivos de la siguiente manera: </p>
-<div class="codehilite"><pre><span></span>$ vim uno.txt dos.txt tres.txt
+<div class="codehilite"><pre>$ vim uno.txt dos.txt tres.txt
 </pre></div>
 
 
@@ -1460,12 +1460,12 @@
 </table>
 <p>_Estas funcionalidades se aplicarán en tiempo real al archivo que tengamos abierto en ese momento, pero se perderán una vez que cerremos el editor. A continuación se explica como guardar permanente nuestras preferencias _</p>
 <p>Para establecer la configuración que deseemos de manera permanente tendremos que abrir (o crear, en caso de no existir) el archivo <code>.vimrc</code> en la carpeta <code>home</code> de nuestro usuario:</p>
-<div class="codehilite"><pre><span></span>bash$ cd /home/tuUsuario &amp;&amp; vim .vimrc
+<div class="codehilite"><pre>bash$ cd /home/tuUsuario &amp;&amp; vim .vimrc
 </pre></div>
 
 
 <p>Dentro del archivo en cuestión podremos <em>setear</em> la configuración deseada: </p>
-<div class="codehilite"><pre><span></span><span class="c">&quot; Esquema de colores</span>
+<div class="codehilite"><pre><span class="c">&quot; Esquema de colores</span>
 <span class="k">colorscheme</span> molokai
 
 <span class="c">&quot; Habilitar el resaltado de sintaxis</span>

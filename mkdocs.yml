@@ -18,8 +18,8 @@ theme_dir: 'themes/material'
 # Opciones
 extra:
   palette:
-    primary: 'orange'
-    accent: 'yellow'
+    primary: 'amber'
+    accent: 'amber'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
