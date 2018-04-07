@@ -20,7 +20,7 @@ Donde:
 Para poder **desempaquetar  archivos .tar**, utilizamos el siguiente comando:
 
 ```bash
-tar -xvf archivo.tar
+tar -xvfC archivo.tar /rutaADescomprimirCarpeta
 ```
 Donde:
 
@@ -29,6 +29,7 @@ Donde:
 | -x       | Indica a tar que descomprima el archivo.tar |
 | -v       | Indica a tar exhiba en pantalla las acciones realizadas |
 | -f       | Indica a tar que el siguiente argumento es el nombre del archivo.tar |
+| -C       | Indica a tar la ruta en la cual desempaquetará el archivo.tar |
 
 Si se quiere **ver el contenido de un archivo .tar** (sin abrirlo), se utiliza el siguiente comando:
 
