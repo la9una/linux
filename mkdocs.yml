@@ -2,7 +2,7 @@
 site_name: 'Introducción a GNU/Linux'
 site_description: 'Apuntes sobre admnistración de GNU/Linux'
 site_author: 'Raul Jesus Lopez'
-site_url: http://www.linux.rauljesus.com
+site_url: http://www.rauljesus.xyz/linux
 
 # Repositorio
 repo_name: 'Ver en GitHub'
@@ -32,7 +32,7 @@ extra:
 #      link: 'https://de.linkedin.com/in/john-doe'
 #    - type: 'facebook'
 #      link: 'https://www.facebook.com/rauljesuslopez'
-  disqus: 'rauljesuscom'
+  disqus: 'rauljesus-xyz'
 
 # Google Analytics
 google_analytics:
