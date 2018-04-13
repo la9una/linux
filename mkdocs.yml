@@ -58,7 +58,7 @@ extra_javascript:
 pages: 
 - Inicio: index.md
 - Operador GNU/Linux:
-    - ¿Por qué GNU/Linux?: 'operador/por_que_gnu_linux.md'
+    - ¿Por qué GNU/Linux?: 'operador/whyLinux.md'
 #    - La terminal de comandos: 'terminal.md'
 #    - Sistema de archivos: 'sistemaArchivos.md'
     - Archivos y carpetas: 'operador/archivosCarpetas.md'
@@ -66,3 +66,4 @@ pages:
     - El editor nano: 'operador/nano.md'
     - El editor vim: 'operador/vim.md'
     - Búsquedas: 'operador/busquedas.md'
+    - Scripting: 'operador/scripts.md'
