@@ -9,7 +9,7 @@
         <meta name="description" content="Apuntes sobre admnistración de GNU/Linux">
       
       
-        <link rel="canonical" href="http://www.linux.rauljesus.com/operador/busquedas/">
+        <link rel="canonical" href="http://www.rauljesus.xyz/linux/operador/busquedas/">
       
       
         <meta name="author" content="Raul Jesus Lopez">
@@ -17,7 +17,7 @@
       
         <link rel="shortcut icon" href="../../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-1.6.0">
     
     
       
@@ -69,7 +69,7 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="http://www.linux.rauljesus.com" title="Introducción a GNU/Linux" class="md-icon md-icon--home md-header-nav__button">
+          <a href="http://www.rauljesus.xyz/linux" title="Introducción a GNU/Linux" class="md-icon md-icon--home md-header-nav__button">
           </a>
         
       </div>
@@ -125,7 +125,7 @@
   
 
 
-  <a href="https://github.com/la9una/linux" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+  <a href="https://github.com/la9una/linux/" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -170,7 +170,7 @@
   
 
 
-  <a href="https://github.com/la9una/linux" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+  <a href="https://github.com/la9una/linux/" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -604,13 +604,15 @@
             <article class="md-content__inner md-typeset">
               
                 
+                  <a href="https://github.com/la9una/linux/edit/master/docs/operador/busquedas.md" title="Editar esta página" class="md-icon md-content__icon">edit</a>
+                
                 
                 <h1 id="busquedas">Búsquedas<a class="headerlink" href="#busquedas" title="Permanent link">&para;</a></h1>
 <p>Las herramientas de búsqueda basadas en la terminal son extremadamente potentes, ya que poseen una multitud de filtros y opciones que las adaptan a casi cualquier necesidad. </p>
 <h2 id="find">find<a class="headerlink" href="#find" title="Permanent link">&para;</a></h2>
 <p>El comando find es una de las herramientas más utilizadas en este segmento por su gran flexibilidad y potencia. </p>
 <h3 id="sintaxis">Sintaxis<a class="headerlink" href="#sintaxis" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre>find <span class="o">[</span>ruta<span class="o">]</span> <span class="o">(</span>opciones<span class="o">)</span>
+<div class="codehilite"><pre><span></span>find <span class="o">[</span>ruta<span class="o">]</span> <span class="o">(</span>opciones<span class="o">)</span>
 </pre></div>
 
 
@@ -683,32 +685,32 @@
 </tbody>
 </table>
 <h3 id="ejemplos">Ejemplos<a class="headerlink" href="#ejemplos" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre>sudo find /etc -name <span class="s2">&quot;*.conf&quot;</span>
+<div class="codehilite"><pre><span></span>sudo find /etc -name <span class="s2">&quot;*.conf&quot;</span>
 </pre></div>
 
 
 <p>Busca en el directorio <code>/etc</code> todos los archivos que finalicen con la extensión <code>.conf</code></p>
-<div class="codehilite"><pre>sudo find / -type d -name <span class="s2">&quot;samba&quot;</span>
+<div class="codehilite"><pre><span></span>sudo find / -type d -name <span class="s2">&quot;samba&quot;</span>
 </pre></div>
 
 
 <p>Busca en el directorio raíz todos las carpetas que contengan el nombre "samba"</p>
-<div class="codehilite"><pre>find . -size +100k
+<div class="codehilite"><pre><span></span>find . -size +100k
 </pre></div>
 
 
 <p>Busca en el directorio actual, todos los archivos con un tamaño mayor a 100 kilobytes</p>
-<div class="codehilite"><pre>find -mtime +2
+<div class="codehilite"><pre><span></span>find -mtime +2
 </pre></div>
 
 
 <p>Busca los archivos modificados hace más de dos días</p>
-<div class="codehilite"><pre>find -amin +2 -amin -5
+<div class="codehilite"><pre><span></span>find -amin +2 -amin -5
 </pre></div>
 
 
 <p>Busca los archivos leídos hace más de dos minutos y menos de cinco minutos</p>
-<div class="codehilite"><pre>find dir1/ -user pepe
+<div class="codehilite"><pre><span></span>find dir1/ -user pepe
 </pre></div>
 
 
@@ -716,12 +718,12 @@
 <h2 id="grep">grep<a class="headerlink" href="#grep" title="Permanent link">&para;</a></h2>
 <p>El comando grep es una herramienta que permite filtrar el contenido de la salida de un programa, a la vez que permite realizar búsquedas en archivos utilizando expresiones regulares</p>
 <h3 id="sintaxis_1">Sintaxis<a class="headerlink" href="#sintaxis_1" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre>grep <span class="o">(</span><span class="s2">&quot;cadena de caracteres&quot;</span><span class="o">)</span> <span class="o">(</span>archivo<span class="o">)</span>
+<div class="codehilite"><pre><span></span>grep <span class="o">(</span><span class="s2">&quot;cadena de caracteres&quot;</span><span class="o">)</span> <span class="o">(</span>archivo<span class="o">)</span>
 </pre></div>
 
 
 <p>o bien:</p>
-<div class="codehilite"><pre><span class="o">(</span>comando<span class="o">)</span> <span class="p">|</span> grep <span class="o">(</span><span class="s2">&quot;cadena de caracteres&quot;</span><span class="o">)</span>
+<div class="codehilite"><pre><span></span><span class="o">(</span>comando<span class="o">)</span> <span class="p">|</span> grep <span class="o">(</span><span class="s2">&quot;cadena de caracteres&quot;</span><span class="o">)</span>
 </pre></div>
 
 
@@ -761,12 +763,12 @@
 </tbody>
 </table>
 <h3 id="ejemplos_1">Ejemplos<a class="headerlink" href="#ejemplos_1" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre>grep -i <span class="s2">&quot;algo&quot;</span> textoImportante.txt
+<div class="codehilite"><pre><span></span>grep -i <span class="s2">&quot;algo&quot;</span> textoImportante.txt
 </pre></div>
 
 
 <p>Busca la palabra algo, sin discriminar entre mayúsculas y minúsculas dentro del archivo textoImportante.txt</p>
-<div class="codehilite"><pre>ls -l <span class="p">|</span> grep <span class="s2">&quot;server&quot;</span>
+<div class="codehilite"><pre><span></span>ls -l <span class="p">|</span> grep <span class="s2">&quot;server&quot;</span>
 </pre></div>
 
 
@@ -841,13 +843,13 @@
                   <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = "http://www.linux.rauljesus.com/operador/busquedas/";
+    this.page.url = "http://www.rauljesus.xyz/linux/operador/busquedas/";
     this.page.identifier =
       "/operador/busquedas/";
   };
   (function() {
     var d = document, s = d.createElement("script");
-    s.src = "//rauljesuscom.disqus.com/embed.js";
+    s.src = "//rauljesus-xyz.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
   })();
@@ -913,6 +915,10 @@
       <script>app.initialize({url:{base:"../.."}})</script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+        <script src="../../search/require.js"></script>
+      
+        <script src="../../search/search.js"></script>
       
     
     
