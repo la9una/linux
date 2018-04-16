@@ -479,6 +479,16 @@
             "location": "/operador/busquedas/#expresiones-regulares", 
             "text": "Tambien conocidas como  regex , es un conjunto de caracteres que forman un patr\u00f3n de b\u00fasqueda. A continuaci\u00f3n se listan algunas de ellas junto con ejemplos relacionados con comandos.      Expresi\u00f3n regular  Descripci\u00f3n      .  Cualquier caracter    ?  Indica un caracter    *  Cualquier grupo de caracteres    ~  Representa el directorio  home  del usuario actual    ^  Indica el comienzo de una l\u00ednea    $  Expresa el final de una l\u00ednea    [^  ]  Corresponde a todos los caracteres exceptuando a los que se encuentran entre corchetes    \\  Omite el significado de una expresi\u00f3n    { }  Indican agrupaci\u00f3n de funciones    [ ]  Determinan un rango de valores    ( )  Indican opciones    !  Expresa negaci\u00f3n", 
             "title": "Expresiones regulares"
+        }, 
+        {
+            "location": "/operador/scripts/", 
+            "text": "Creando scripts\n\n\nLa terminal de GNU/Linux, en la mayoria de las distribuciones, emplea BASH un emulador de terminal que posee su propio lenguaje de programaci\u00f3n, denominado \nBash scripting\n. \n\n\nPara crear un script bastar\u00e1 con seguir los siguientes pasos: \n\n\n\n\n\n\nCrear un archivo de texto\n\n\n\n\n\n\nDentro del archivo, incluir el siguiente encabezado:\n\n\n\n\n\n\n#!/bin/bash\n\n\n\n\n\n\n\n\n\n\nSeguidamente, agregar los comandos que se deseen ejecutar. Hay muchas maneras de hacer esto, aunque la recomendada para comenzar es colocar un comando por l\u00ednea, es decir, uno debajo del otro. \n\n\n\n\n\n\nUna vez guardados los cambios, en necesario dar permisos de ejecuci\u00f3n al archivo, de la siguiente manera: \n\n\n\n\n\n\nchmod +x nombreScript\n\n\n\n\n\n\n\nFinalmente, estaremos en condiciones de ejecutar el script: \n\n\n\n\nsh nombreScript\n\n\n\n\n\no bien\n\n\n./nombreScript", 
+            "title": "Scripts"
+        }, 
+        {
+            "location": "/operador/scripts/#creando-scripts", 
+            "text": "La terminal de GNU/Linux, en la mayoria de las distribuciones, emplea BASH un emulador de terminal que posee su propio lenguaje de programaci\u00f3n, denominado  Bash scripting .   Para crear un script bastar\u00e1 con seguir los siguientes pasos:     Crear un archivo de texto    Dentro del archivo, incluir el siguiente encabezado:    #!/bin/bash     Seguidamente, agregar los comandos que se deseen ejecutar. Hay muchas maneras de hacer esto, aunque la recomendada para comenzar es colocar un comando por l\u00ednea, es decir, uno debajo del otro.     Una vez guardados los cambios, en necesario dar permisos de ejecuci\u00f3n al archivo, de la siguiente manera:     chmod +x nombreScript   Finalmente, estaremos en condiciones de ejecutar el script:    sh nombreScript  o bien  ./nombreScript", 
+            "title": "Creando scripts"
         }
     ]
 }
